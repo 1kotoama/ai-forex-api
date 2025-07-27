@@ -1,0 +1,7 @@
+services:
+  - type: web
+    name: ai-forex-api
+    env: python
+    buildCommand: ""
+    startCommand: python ai_forex_api.py
+    region: singapore
